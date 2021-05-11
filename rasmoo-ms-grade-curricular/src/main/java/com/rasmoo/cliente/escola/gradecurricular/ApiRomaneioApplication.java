@@ -8,15 +8,15 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @EnableCaching
 @SpringBootApplication
-public class GradeCurricularApplication extends SpringBootServletInitializer {
+public class ApiRomaneioApplication extends SpringBootServletInitializer {
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(GradeCurricularApplication.class);
+		return application.sources(ApiRomaneioApplication.class);
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(GradeCurricularApplication.class, args);
+		SpringApplication.run(ApiRomaneioApplication.class, args);
 	}
 
 }
